@@ -1,3 +1,11 @@
-module.exports.helloWorld = undefined;
+function helloWorld() {
+  return "Hello World";
+}
 
-module.exports.multiply = undefined;
+function multiply(a, b) {
+  return a * b;
+}
+
+module.exports.helloWorld = helloWorld;
+
+module.exports.multiply = multiply;
